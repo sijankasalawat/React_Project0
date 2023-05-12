@@ -38,7 +38,7 @@
   
 }
   .nav-bar{
-    padding:2% 0 0 0;
+    padding:2% 5% 0 5%;
 
   }
   .nav{
@@ -68,6 +68,9 @@
 .left-comtainer {
   height:100%;
   width:60%;
+  
+  
+ 
 }
 .right-container {
   height: 100%;
@@ -77,6 +80,8 @@
 .nav a{
   padding :10px;
 }
-.Logo {
-  background-image: url(./Assets/Logo.svg);
+.left-comtainer h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: #0dcaf0  ;
 }

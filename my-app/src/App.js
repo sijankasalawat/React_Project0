@@ -1,9 +1,10 @@
-import Assets from './logo.svg';
+
 import './App.css';
-import {ReactComponent as logo} from './'
+import { ReactComponent as Logo } from "./Assets/Logo.svg";
+
 
 function App() {
-  
+  const name= "conference calling tool";
 
 
   return (
@@ -11,10 +12,10 @@ function App() {
   <div className="mainwrapper">
     <div className='wrapper'>
     
-    <div1 className="nav-bar d-flex justify-content-evenly ">
+    <div1 className="nav-bar d-flex justify-content-between">
 
         <div1>
-          <img src="."/>
+        <Logo />
         </div1>
         <div2 className="nav d-flex justify-content-evenly ">
         
@@ -52,12 +53,33 @@ function App() {
     </div>
     <div className="main-container bg-secondary ">
       
-      <div className="left-comtainer  bg-dark col-sm-12">
+      <div className="left-comtainer  bg-dark ">
+        <h1 >OnDeck is your remote <span style={{color: 'yellow'}}>{name}</span></h1>
+        <p>Ondeck ia a service that allows you to create beautiful, online, and encrypted video calls for you and your remote team.</p>
+        <button>Try for free</button>
+        <div className="container_Logo">
+          <h2>5.0 Rating based on reviews from:</h2>
+          <img src="./"/>
+          <img src="./"/>
+          <img src="./"/>
+        </div>
 
       </div>
-      <div className="right-container  bg-primary col-sm-12">
+      <div className="right-container  bg-primary ">
+      <img src="./"/>
 
       </div>
+    </div>
+    <div className="trust">
+      <h>Trusted by 3+ million people at companies like</h>
+    </div>
+    <div className="logo_Img">
+          <img src="./"/>
+          <img src="./"/>
+          <img src="./"/>
+          <img src="./"/>
+          
+        
     </div>
 
     </div>
