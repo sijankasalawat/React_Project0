@@ -50,12 +50,12 @@ function App() {
         </div1>
 
     </div>
-    <div className="main-container bg-light ">
+    <div className="main-container bg-secondary ">
       
-      <div className="left-comtainer col-md-8 col-sm-12 bg-dark">
+      <div className="left-comtainer  bg-dark col-sm-12">
 
       </div>
-      <div className="right-container col-md-4 col-sm-12 bg-primary">
+      <div className="right-container  bg-primary col-sm-12">
 
       </div>
     </div>

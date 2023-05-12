@@ -54,16 +54,29 @@
 }
 .main-container{
   width:100%;
+  
   height:60vh;
-  justify-content: flex;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  position: fit-content;
+  padding:5% 5% 0 5%;
+  
 
 
 }
 .left-comtainer {
-  height:100%
+  height:100%;
+  width:60%;
 }
 .right-container {
   height: 100%;
+  width:40%
 
+}
+.nav a{
+  padding :10px;
+}
+.Logo {
+  background-image: url(./Assets/Logo.svg);
 }
