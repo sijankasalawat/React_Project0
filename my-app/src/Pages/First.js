@@ -2,7 +2,7 @@ import "./First.css";
 import { ReactComponent as Logo } from "../Assets/Logo.svg";
 
 const First = () => {
-  const name = "conference calling tool";
+  const name = "conference calling tools";
 
   return (
     <>
