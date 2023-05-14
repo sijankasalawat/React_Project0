@@ -36,7 +36,7 @@ const First = () => {
           
           </ul> */}
             </div>
-            <div>
+            <div className="signins">
               <button className="signin ">Sign in</button>
               <button className="free"> Try for free</button>
             </div>
@@ -52,7 +52,7 @@ const First = () => {
               Ondeck ia a service that allows you to create beautiful, online,
               and encrypted video calls for you and your remote team.
             </p>
-            <button>Try for free</button>
+            <button className="button1">Try for free</button>
             <div className="container_Logo d-flex ">
               <div>
                 
@@ -73,7 +73,7 @@ const First = () => {
         <div className="trust">
           <p>Trusted by 3+ million people at companies like</p>
         </div>
-        <div className="logo_Img d-flex justify-content-evenly">
+        <div className="logo_Img ">
           <img src={netflix} alt="Netflix" />
           <img src={sho} alt="Shopify" />
           <img src={spo} alt="Spotify" />
