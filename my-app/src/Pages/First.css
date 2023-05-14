@@ -132,3 +132,22 @@
     align-items: center;
     text-align: center;
   }
+  .container_Logo{
+    padding:2% 0;
+  }
+  .container_Logo p{
+    font-size: 24px;
+    color:#6d6d6d;
+  }
+  .logos img{
+    padding-left: 20px;
+  }
+  .trust p{
+    font-size: 24px;
+    color:#6d6d6d;
+
+  }
+  .logo_Img{
+
+    padding-top: 2%;
+  }

@@ -4,6 +4,10 @@ import hero from "../Assets/Hero.png";
 import alternative from "../Assets/alternative.svg";
 import cap from "../Assets/cap.svg";
 import close from "../Assets/Close.svg";
+import netflix from "../Assets/net.svg";
+import sho from "../Assets/sho.svg";
+import spo from "../Assets/spo.svg";
+import wal from "../Assets/wal.svg";
 const First = () => {
   const name = "conference calling tools";
 
@@ -44,7 +48,7 @@ const First = () => {
               OnDeck is your remote{" "}
               <span style={{ color: "orange" }}>{name}</span>
             </h1>
-            <p className="">
+            <p >
               Ondeck ia a service that allows you to create beautiful, online,
               and encrypted video calls for you and your remote team.
             </p>
@@ -52,9 +56,9 @@ const First = () => {
             <div className="container_Logo d-flex ">
               <div>
                 
-                <h2>5.0 Rating based on reviews from:</h2>
+                <p>5.0 Rating based on reviews from:</p>
               </div>
-              <div >
+              <div className="logos d-flex align-items-center" >
               <img src={cap} alt="cap" />
                 <img src={alternative} alt="alternative" />
                 
@@ -67,13 +71,13 @@ const First = () => {
           </div>
         </div>
         <div className="trust">
-          <h>Trusted by 3+ million people at companies like</h>
+          <p>Trusted by 3+ million people at companies like</p>
         </div>
         <div className="logo_Img d-flex justify-content-evenly">
-          <img src="./" />
-          <img src="./" />
-          <img src="./" />
-          <img src="./" />
+          <img src={netflix} alt="Netflix" />
+          <img src={sho} alt="Shopify" />
+          <img src={spo} alt="Spotify" />
+          <img src={wal} alt="Walmart" />
         </div>
       </div>
     </>
