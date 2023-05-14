@@ -1,6 +1,9 @@
 import "./First.css";
 import { ReactComponent as Logo } from "../Assets/Logo.svg";
-
+import hero from "../Assets/Hero.png";
+import alternative from "../Assets/alternative.svg";
+import cap from "../Assets/cap.svg";
+import close from "../Assets/Close.svg";
 const First = () => {
   const name = "conference calling tools";
 
@@ -30,37 +33,43 @@ const First = () => {
           </ul> */}
             </div>
             <div>
-              <button className="signin bg-primary">Sign in</button>
+              <button className="signin ">Sign in</button>
               <button className="free"> Try for free</button>
             </div>
           </div>
         </div>
-        <div className="main-container bg-secondary ">
-          <div className="left-comtainer  bg-dark ">
+        <div className="main-container  ">
+          <div className="left-container  ">
             <h1>
               OnDeck is your remote{" "}
-              <span style={{ color: "yellow" }}>{name}</span>
+              <span style={{ color: "orange" }}>{name}</span>
             </h1>
-            <p>
+            <p className="">
               Ondeck ia a service that allows you to create beautiful, online,
               and encrypted video calls for you and your remote team.
             </p>
             <button>Try for free</button>
-            <div className="container_Logo">
-              <h2>5.0 Rating based on reviews from:</h2>
-              <img src="./" />
-              <img src="./" />
-              <img src="./" />
+            <div className="container_Logo d-flex ">
+              <div>
+                
+                <h2>5.0 Rating based on reviews from:</h2>
+              </div>
+              <div >
+              <img src={cap} alt="cap" />
+                <img src={alternative} alt="alternative" />
+                
+                <img src={close} alt="close" />
+              </div>
             </div>
           </div>
-          <div className="right-container  bg-primary ">
-            <img src="./" />
+          <div className="right-container  ">
+            <img src={hero} alt="HeroImage" />
           </div>
         </div>
         <div className="trust">
           <h>Trusted by 3+ million people at companies like</h>
         </div>
-        <div className="logo_Img">
+        <div className="logo_Img d-flex justify-content-evenly">
           <img src="./" />
           <img src="./" />
           <img src="./" />
