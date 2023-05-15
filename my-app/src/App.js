@@ -1,6 +1,6 @@
 import "./App.css";
 import { Link } from 'react-router-dom';
-import First from "./Pages/First";
+
 
 // import  { ReactComponent as img } from "./Assets/lp1.png";
 
@@ -17,6 +17,8 @@ function App() {
           <Link to="/first" className="btn btn-primary ">First-Landing-Page</Link>
           
         </div>
+        <div className="col-3"></div>
+        <Link to="/login" className="btn btn-primary">Login-Page</Link>
       </div>
     </div>
       
