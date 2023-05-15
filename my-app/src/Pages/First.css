@@ -232,6 +232,10 @@ font-style: bold;
     margin: 2% 0;
     
   }
+  .dropdown_menu{
+    position: absolute;
+    top:100px;
+  }
 
   
 

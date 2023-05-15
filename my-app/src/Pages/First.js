@@ -8,6 +8,7 @@ import netflix from "../Assets/net.svg";
 import sho from "../Assets/sho.svg";
 import spo from "../Assets/spo.svg";
 import wal from "../Assets/wal.svg";
+import spen from "../Assets/Spense_Icon.svg";
 const First = () => {
   const name = "conference calling tools";
 
@@ -21,6 +22,12 @@ const First = () => {
             </div>
             <div className="nav d-flex justify-content-evenly ">
               <a href="#">Product</a>
+              <div className="dropdown-menu">
+                <ul>
+                  <DropdownItem img={spen} text="Spense"/>
+                  <DropdownItem img={spen} text="Spense"/>
+                </ul>
+              </div>
               <a href="#">Challenges</a>
               <a href="#">Resources</a>
 
@@ -83,5 +90,13 @@ const First = () => {
     </>
   );
 };
+function DropdownItem(props){
+  return(
+    <li className="dropdown-Item">
+    <img src={props.img}></img>
+    <a>{props.text}</a>
+    </li>
 
+  );
+}
 export default First;
