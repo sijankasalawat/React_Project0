@@ -235,6 +235,8 @@ font-style: bold;
   .dropdown_menu{
     position: absolute;
     top:100px;
+    right:20px;
+    
   }
 
   

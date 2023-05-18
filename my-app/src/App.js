@@ -17,8 +17,10 @@ function App() {
           <Link to="/first" className="btn btn-primary ">First-Landing-Page</Link>
           
         </div>
-        <div className="col-3"></div>
+        <div className="col-3">
         <Link to="/login" className="btn btn-primary">Login-Page</Link>
+
+        </div>
       </div>
     </div>
       
