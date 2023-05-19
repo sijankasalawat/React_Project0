@@ -14,6 +14,9 @@ const First = () => {
 
   return (
     <>
+    <div className="main">
+
+    
       <div className="mainwrapper container ">
         <div className="wrapper ">
           <div className="nav-bar d-flex justify-content-between">
@@ -86,6 +89,7 @@ const First = () => {
           <img src={spo} alt="Spotify" />
           <img src={wal} alt="Walmart" />
         </div>
+      </div>
       </div>
     </>
   );

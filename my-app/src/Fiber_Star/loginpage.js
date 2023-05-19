@@ -1,8 +1,11 @@
-
+import "./login.css"
 function loginpage() {
     return (
         <>
-        hello
+        <div className="container bg-primary">
+
+            
+        </div>
         </>
     )
     
