@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Login from './Fiber_Star/loginpage';
+import Login from './Fiber_Star/Dashboard/loginpage';
+import Rating from './Fiber_Star/Dashboard/Rating';
+
+
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -22,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path:"/rating",
+    element:<Rating/>
   }
 ]);
 
@@ -32,6 +39,7 @@ root.render(
    <RouterProvider router={router} />
   </React.StrictMode>
 );
+
 
 
 // If you want to start measuring performance in your app, pass a function
