@@ -6,6 +6,7 @@ import Rating from './Fiber_Star/Dashboards/Rating';
 
 
 
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
@@ -30,7 +31,8 @@ const router = createBrowserRouter([
   {
     path:"/rating",
     element:<Rating/>
-  }
+  },
+ 
 ]);
 
 

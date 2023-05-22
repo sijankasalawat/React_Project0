@@ -52,6 +52,30 @@ const DashBoard = () => {
               <img src="" alt="HeroImage" />
             </div>
         </div>
+        <div className="midBody">
+          <p className="mid text-start font-weight-bold text-primary">Why Fiber</p>
+          <h1 ClassName="mid text-start font-weight-bold text-dark">A good portfolio means good employability.</h1>
+          <div className="cards col-12 ">
+            <div className="row">
+              <div className="card col-12 col-md-6 col-lg-4 bg-primary ">
+                <img src=""></img>
+                <h2>Build in minutes</h2>
+                <p>With a selection of premade templates, you can build out a portfolio in less than 10 minutes</p>
+              </div>
+              <div className="card col-12 col-md-6 col-lg-4 bg-grey">
+              <img src=""></img>
+                <h2>Build in minutes</h2>
+                <p>With a selection of premade templates, you can build out a portfolio in less than 10 minutes</p>
+              </div>
+              <div className="card col-12 col-md-6 col-lg-4 bg-primary">
+              <img src=""></img>
+                <h2 ClassName="bg-white">Build in minutes</h2>
+                <p ClassName="bg-white">With a selection of premade templates, you can build out a portfolio in less than 10 minutes</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </>
   );
