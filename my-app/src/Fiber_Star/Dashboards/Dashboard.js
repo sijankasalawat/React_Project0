@@ -1,8 +1,8 @@
 import "./login.css";
 import Rating from './Rating';
-import { ReactDOM } from "react";
 
-function loginpage() {
+
+const DashBoard = () => {
   const rate = 4.5;
   return (
     <>
@@ -44,7 +44,7 @@ function loginpage() {
               <a>View Example</a>
             </div>
             <div className="nocredit">
-                <img></img>
+                
             </div>
            
           </div>
@@ -57,4 +57,4 @@ function loginpage() {
   );
 }
 
-export default loginpage;
+export default DashBoard;

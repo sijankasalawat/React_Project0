@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Login from './Fiber_Star/Dashboard/loginpage';
-import Rating from './Fiber_Star/Dashboard/Rating';
+
+import Rating from './Fiber_Star/Dashboards/Rating';
 
 
 
@@ -13,6 +13,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import First from './Pages/First';
+import Dashboard from './Fiber_Star/Dashboards/Dashboard';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,8 +24,8 @@ const router = createBrowserRouter([
     element: <First />,
   },
   {
-    path: "/login",
-    element: <Login />,
+    path: "/dashboard",
+    element: <Dashboard />,
   },
   {
     path:"/rating",

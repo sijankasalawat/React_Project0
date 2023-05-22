@@ -18,9 +18,10 @@ function App() {
           
         </div>
         <div className="col-3">
-        <Link to="/login" className="btn btn-primary">Login-Page</Link>
+        <Link to="/dashboard" className="btn btn-primary">Dashboard</Link>
 
         </div>
+   
       </div>
     </div>
       
