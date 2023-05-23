@@ -8,7 +8,7 @@ const DashBoard = () => {
   return (
     <>
     <div className="main-containers">
-      <div className="container ">
+      <div className=" TOP container ">
         <div className="upper-container ">
         <header className="header d-flex justify-content-between  align-items-center">
           <div className="fiber text-decoration-none font-weight-bold">
@@ -65,7 +65,7 @@ const DashBoard = () => {
 
        
       </div>
-      <div className="midBody  ">
+      <div className="midBody container bg-light  ">
           <p className="mid text-start font-weight-bold text-primary">Why Fiber</p>
           <h1 ClassName="mid text-start font-weight-bold text-dark">A good portfolio means good employability.</h1>
           <div className="cards col-12 ">

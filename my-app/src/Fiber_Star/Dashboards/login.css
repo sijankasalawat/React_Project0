@@ -1,11 +1,11 @@
 .main-containers {
     width:100%;
-    background-color:#ccc;
+    background-color:beige;
     height:100vh;
 }
 
 .container {
-  background-color:antiquewhite;
+  background-color:beige;
 }
 .nav li a {
   font-size: 18px;
@@ -25,6 +25,10 @@
 }
 .left_container {
   padding-top: 10%;
+}
+.right_container{
+    align-items: center;
+    height: 100%;
 }
 .create {
   color: rgb(0, 0, 0);
@@ -91,6 +95,13 @@
 }
 .header {
   height: 10vh;
+}
+.TOP{
+    height: 100vh;
+}
+.midBody{
+    height:100vh;
+    
 }
 .rate {
   float: left;
