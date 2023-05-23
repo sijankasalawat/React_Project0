@@ -1,58 +1,71 @@
 import "./login.css";
 import Rating from './Rating';
+import Fiber from "../Assets/hello.png";
 
 
 const DashBoard = () => {
   const rate = 4.5;
   return (
     <>
+    <div className="main-containers">
       <div className="container ">
-        <header className="d-flex justify-content-between">
-          <div>Fiber</div>
-          <div>
-            <ul className="d-flex align-items-center ">
+        <div className="upper-container ">
+        <header className="header d-flex justify-content-between  align-items-center">
+          <div className="fiber text-decoration-none font-weight-bold">
+            <a >Fiber</a>
+          </div>
+          <div className="nav text-decoration-none">
+           
               <li>
                 <a href="#">Community</a>
               </li>
               <li>
-                <a href="#">Community</a>
+                <a href="#">Pricing</a>
               </li>
               <li>
-                <a href="#">Community</a>
+                <a href="#">Features</a>
               </li>
-            </ul>
+           
           </div>
           <div>
-            <button>SignIn</button>
-            <button>Sign Up</button>
+            <button className="signins ">Sign In</button>
+            <button className="signups">Sign Up</button>
           </div>
         </header>
         <div className="mainContainer container d-flex">
-          <div className="left_container">
+          <div className="left_container w-50 ">
+            <div className="upper_container d-flex align-items-center ">
             <Rating/>
           
 
-            <p> Rated {rate}/5 (243 reviews) </p>
+          <p className="text-start font-weight-bold"> Rated {rate}/5 (243 reviews) </p>
+              </div>
+  
+           
 
-            <h1>Create your portfolio in munites.</h1>
+            <h1 className="create text-start font-weight-bold text-dark">Create your portfolio in munites.</h1>
             <p>
-              With Fiber, you can stepup your own personal portfolio in minute
+              With Fiber, you can stepup your own personal portfolio in minutes
               with dozens of premaded, besutiful templates.
             </p>
             <div className="buttons d-flex align-items-center ">
-              <button className="button1">Try for free</button>
-              <a>View Example</a>
+              <button className="button1">Start Free Trial</button>
+              <a className="text-decoration-none" href="#">View Example</a>
             </div>
             <div className="nocredit">
                 
             </div>
            
           </div>
-          <div className="right_container bg-primary">
-              <img src="" alt="HeroImage" />
+          <div className="right_container w-50">
+              <img src={Fiber } alt="Fiber" />
             </div>
         </div>
-        <div className="midBody">
+        </div>
+
+       
+      </div>
+      <div className="midBody  ">
           <p className="mid text-start font-weight-bold text-primary">Why Fiber</p>
           <h1 ClassName="mid text-start font-weight-bold text-dark">A good portfolio means good employability.</h1>
           <div className="cards col-12 ">
@@ -73,10 +86,22 @@ const DashBoard = () => {
                 <p ClassName="bg-white">With a selection of premade templates, you can build out a portfolio in less than 10 minutes</p>
               </div>
             </div>
+            <div className="mid-container bg-secondary h-100 d-flex ">
+              <div className="rightContainer w-50">
+                <h1>Diversify your portfolio</h1>
+                <p>Create an even more ipressive portfolio by creating case studies for your projects. Simply follows our step-by-step guide.</p>
+                <button>Start Free Trial</button>
+              </div>
+              <div className="leftContainer w-50">
+                <img></img>
+              </div>
+
+            </div>
+
           </div>
 
         </div>
-      </div>
+    </div>
     </>
   );
 }

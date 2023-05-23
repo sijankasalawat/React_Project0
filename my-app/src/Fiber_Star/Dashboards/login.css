@@ -1,46 +1,135 @@
+.main-containers {
+    width:100%;
+    background-color:#ccc;
+    height:100vh;
+}
 
-.wrapper{
-    background-color: aqua;
-    width:fit-content;
-    height:fit-content
+.container {
+  background-color:antiquewhite;
+}
+.nav li a {
+  font-size: 18px;
+  color: rgb(43, 43, 43);
+}
+.nav li a:hover {
+  color: rgb(48, 11, 255);
+}
+.fiber a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.left_container {
+  padding-top: 10%;
+}
+.create {
+  color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: bold;
+  font-size: 54px;
+}
+.signins {
+  font-size: 18px;
+  width: 100px;
+  font-weight: bold;
+  border: none;
+  background-color: antiquewhite;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.signins:hover {
+  background-color: antiquewhite;
+  color: rgb(12, 68, 223);
+}
+.signups {
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  border-radius: 8%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 
+  background-color: rgb(82, 2, 255);
+}
+.left_container p {
+  font-size: 18px;
+  color: rgb(43, 43, 43);
+}
+.left_container button {
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-radius: 8%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  background-color: rgb(82, 2, 255);
+}
+.buttons a {
+  padding-left: 2%;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(82, 2, 255);
+}
+.header {
+  height: 10vh;
 }
 .rate {
-    float: left;
-    height: 46px;
-    padding: 0 10px;
+  float: left;
+  height: 46px;
+  padding: 0 10px;
 }
 .rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
+  position: absolute;
+  top: -9999px;
 }
 .rate:not(:checked) > label {
-    float:right;
-    width:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:30px;
-    color:#ccc;
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
 }
 .rate:not(:checked) > label:before {
-    content: '★ ';
+  content: "★ ";
 }
 .rate > input:checked ~ label {
-    color: #ffc700;    
+  color: #ffc700;
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
-    color: #deb217;  
+  color: #deb217;
 }
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
+  color: #c59b08;
 }
-.cards{
-    height:200px;
+.cards {
+  height: 200px;
 }
-
+.right_container img {
+  width: 100%;
+}
