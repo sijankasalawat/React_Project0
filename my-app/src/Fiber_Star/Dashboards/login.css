@@ -180,3 +180,14 @@
 .right_container img {
   width: 100%;
 }
+.mid-container{
+  align-items: center;
+  align-content: center;
+  padding: 2% 2% 0 2%;
+  background-color: rgb(82, 2, 255);
+
+}
+
+.leftContainer img{
+  width:100%;
+}

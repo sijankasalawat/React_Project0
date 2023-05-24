@@ -4,6 +4,7 @@ import Fiber from "../Assets/hello.png";
 import Time from "../Assets/time.svg";
 import Star from "../Assets/code.svg";
 import ALL from "../Assets/allSizes.svg";
+import Page from "../Assets/pages.png";
 
 
 
@@ -90,16 +91,32 @@ const DashBoard = () => {
                 <p ClassName="bg-white">With a selection of premade templates, you can build out a portfolio in less than 10 minutes</p>
               </div>
             </div>
-            <div className="mid-container bg-secondary h-100 d-flex ">
+            <div className="mid-container  d-flex ">
               <div className="rightContainer w-50">
                 <h1>Diversify your portfolio</h1>
                 <p>Create an even more ipressive portfolio by creating case studies for your projects. Simply follows our step-by-step guide.</p>
                 <button>Start Free Trial</button>
               </div>
               <div className="leftContainer w-50">
-                <img></img>
+                <img src={Page} alt="page"/>
               </div>
 
+            </div>
+            <div className="person bg-primary">
+              <div className="div col-12">
+                <div className="row">
+                  <div className="col-12 col-md-6 col-lg-4">
+                    hello
+                  </div>
+                  <div className="col-12 col-md-6 col-lg-4">
+                    hello
+                    
+                  </div>
+                  <div className="col-12 col-md-6 col-lg-4">
+                    hello
+                   </div>
+                </div>
+              </div>
             </div>
 
           </div>
