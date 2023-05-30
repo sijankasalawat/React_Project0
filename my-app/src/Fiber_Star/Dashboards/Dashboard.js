@@ -106,7 +106,14 @@ const DashBoard = () => {
               <div className="div col-12">
                 <div className="row">
                   <div className="col-12 col-md-6 col-lg-4">
-                    hello
+                   <div className="profiles d-flex">
+                    <div>
+                      <img></img>
+                    </div>
+                    <div>
+                      <h3>John Doe</h3>
+                    </div>
+                   </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
                     hello

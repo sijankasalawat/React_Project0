@@ -22,7 +22,7 @@ function App() {
 
         </div>
         <div className="col-3">
-        <Link to="/todolist" className="btn btn-primary">ToDoList</Link>
+        <Link to="/todolists" className="btn btn-primary">ToDoList</Link>
 
         </div>
    

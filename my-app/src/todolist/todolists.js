@@ -1,17 +1,22 @@
-const Form =()=>{
-    <>
-    <Form >
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
-      </Form.Group>
-    </Form>
-    
-    </>
-    return;
+import React, { useState } from 'react';
 
-}
-export default Form;
+
+const ToDoList = () => {
+    const [input, setInput] = React.useState('');
+  
+    const handleInputChange = (e) => {
+      setInput(e.target.value);
+    }
+  
+    const Inputs =()=>{
+      return(
+        <div>
+          <input type="text" value={input} onChange={handleInputChange} />
+          <button>Add</button>
+        </div>
+      )
+    }
+  
+  }
+  
+export default ToDoList;
