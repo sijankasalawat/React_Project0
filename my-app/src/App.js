@@ -21,6 +21,11 @@ function App() {
         <Link to="/dashboard" className="btn btn-primary">Dashboard</Link>
 
         </div>
+        <div className="col-3">
+        <Link to="/todolist" className="btn btn-primary">ToDoList</Link>
+
+        </div>
+   
    
       </div>
     </div>
