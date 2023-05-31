@@ -43,7 +43,7 @@ const ToDoList = () => {
         <div className="days bg-primary text-white"></div>
 
         <div className="lists  d-flex align-items-center ">
-          <input className="inp  " placeholder="Add a task" type="text" value={input} onChange={handleInputChange} />
+          <input className="inp  " placeholder="Add a task " type="text" value={input} onChange={handleInputChange} />
           <button className ="adds  " onClick={handleAdd}>Add</button>
         </div>
         <div className="con " id="containers">
