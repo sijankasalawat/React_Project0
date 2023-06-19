@@ -5,6 +5,8 @@ import Time from "../Assets/time.svg";
 import Star from "../Assets/code.svg";
 import ALL from "../Assets/allSizes.svg";
 import Page from "../Assets/pages.png";
+import John from "../Assets/john.svg";
+import Sahara from "../Assets/sahara.svg";
 
 
 
@@ -107,8 +109,8 @@ const DashBoard = () => {
                 <div className="row">
                   <div className="col-12 col-md-6 col-lg-4">
                    <div className="profiles d-flex">
-                    <div>
-                      <img></img>
+                    <div className="Images">
+                      <img src={John}/>
                     </div>
                     <div>
                       <h3>John Doe</h3>
@@ -116,11 +118,25 @@ const DashBoard = () => {
                    </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
-                    hello
+                  <div className="profiles d-flex">
+                    <div className="Images">
+                      <img src={John}/>
+                    </div>
+                    <div>
+                      <h3>John Doe</h3>
+                    </div>
+                   </div>
                     
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
-                    hello
+                  <div className="profiles d-flex">
+                    <div className="Images">
+                      <img src={John}/>
+                    </div>
+                    <div>
+                      <h3>John Doe</h3>
+                    </div>
+                   </div>
                    </div>
                 </div>
               </div>
