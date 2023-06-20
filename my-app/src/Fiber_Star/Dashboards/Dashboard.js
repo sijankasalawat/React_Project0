@@ -6,10 +6,36 @@ import Star from "../Assets/code.svg";
 import ALL from "../Assets/allSizes.svg";
 import Page from "../Assets/pages.png";
 import John from "../Assets/john.svg";
+import React, { useState, useEffect } from "react";
+
+const menuIcon = document.querySelector(".menu-icon");
+const menu = document.querySelector(".menu");
+
 
 const DashBoard = () => {
   const rate = 4.5;
+  const [menuActive, setMenuActive] = useState(false);
+
+  useEffect(() => {
+    const handleMenuClick = () => {
+      setMenuActive(!menuActive);
+    };
+
+    const menuIcon = document.querySelector(".menu-icon");
+    const menu = document.querySelector(".menu");
+
+    if (menuIcon && menu) {
+      menuIcon.addEventListener("click", handleMenuClick);
+    }
+
+    return () => {
+      if (menuIcon && menu) {
+        menuIcon.removeEventListener("click", handleMenuClick);
+      }
+    };
+  }, [menuActive]);
   return (
+    
     <>
       <div className="mainContainers">
         <div className=" TOP container ">
@@ -46,7 +72,7 @@ const DashBoard = () => {
                 </div>
 
                 <h1 className="create text-start font-weight-bold text-dark">
-                  Create your portfolio in munites.
+                  Create your portfolio in minutes.
                 </h1>
                 <p>
                   With Fiber, you can stepup your own personal portfolio in
